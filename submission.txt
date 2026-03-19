@@ -3,7 +3,7 @@
 ============================================================
 
 프로젝트 이름:  IoT 환경 센서 모니터링 시스템
-GitHub 저장소:  em_linux
+GitHub 저장소:  https://github.com/changyeon47/em_linux
 제출 일자:      2026-03-19
 
 ------------------------------------------------------------
@@ -42,14 +42,14 @@ DB 사용자:      env_user
 ------------------------------------------------------------
 접속 URL
 ------------------------------------------------------------
-웹 대시보드:    http://localhost/env_monitor
-JSON API:       http://localhost/env_monitor/api.php
+웹 대시보드:    http://localhost:8080 (PHP 내장 서버 사용 시)
+JSON API:       http://localhost:8080/api.php
 
 ------------------------------------------------------------
 실행 방법
 ------------------------------------------------------------
-1. sudo bash /home/changyeon/em_linux/setup.sh
-2. python3 /home/changyeon/em_linux/injector.py
-3. 브라우저에서 http://localhost/env_monitor 접속
+1. bash /home/changyeon/em_linux/setup.sh
+2. python3 /home/changyeon/em_linux/injector.py &
+3. 브라우저에서 http://localhost:8080 접속
 
 ============================================================
